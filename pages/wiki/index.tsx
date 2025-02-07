@@ -28,7 +28,7 @@ export default function Wiki(props: any) {
         <p className="mt-4">
           To get started, clone this repository and run the following commands:
         </p>
-        <pre className="bg-gray-100 p-4 rounded mt-2">
+        <pre className="bg-gray-100 dark:bg-slate-600 p-4 rounded mt-2">
           <code>{`npm install\nnpm run dev`}</code>
         </pre>
         <h2 className="text-2xl font-semibold mt-8">Conclusion</h2>
