@@ -1,18 +1,7 @@
 "use client";
 
 import * as React from "react";
-import {
-  BookOpen,
-  Bot,
-  Command,
-  Frame,
-  LifeBuoy,
-  Map,
-  PieChart,
-  Send,
-  Settings2,
-  SquareTerminal,
-} from "lucide-react";
+import { BookOpen, Command, Frame, Send, Settings2 } from "lucide-react";
 
 import { NavMain } from "@/components/nav-main";
 import { NavSingle } from "@/components/nav-projects";
@@ -27,7 +16,6 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { useTheme } from "next-themes";
 
 const data = {
   user: {
@@ -69,18 +57,13 @@ const data = {
       icon: Settings2,
       items: [
         {
-          title: "General",
+          title: "User Settings",
           url: "#",
         },
       ],
     },
   ],
   navSecondary: [
-    {
-      title: "Support",
-      url: "#",
-      icon: LifeBuoy,
-    },
     {
       title: "Feedback",
       url: "#",
